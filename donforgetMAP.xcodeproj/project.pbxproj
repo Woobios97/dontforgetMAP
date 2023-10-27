@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6021DF262A67FEBF004D78AD /* TodoManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6021DF252A67FEBF004D78AD /* TodoManager.swift */; };
+		6021DF292A762B32004D78AD /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 6021DF282A762B32004D78AD /* Moya */; };
+		6021DF2C2A762CAC004D78AD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6021DF2B2A762CAC004D78AD /* APIService.swift */; };
+		60CE61432A77949600321C19 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CE61422A77949600321C19 /* GoogleService-Info.plist */; };
+		97720851FD16CBA4F32BF4C7 /* Pods_donforgetMAP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53A1F9077F5270D769C23B97 /* Pods_donforgetMAP.framework */; };
+		A51C6A462A5D220C0078A1AD /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51C6A452A5D220C0078A1AD /* SettingViewController.swift */; };
+		A559C1A32A6BDF120006E133 /* ToDoListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A559C1A22A6BDF120006E133 /* ToDoListCell.swift */; };
+		A55A5A9D2A5B80B5003ED409 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5A9C2A5B80B5003ED409 /* GoogleSignIn */; };
+		A55A5A9F2A5B80B5003ED409 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5A9E2A5B80B5003ED409 /* GoogleSignInSwift */; };
+		A55A5AA22A5B94F0003ED409 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AA12A5B94F0003ED409 /* FirebaseAnalytics */; };
+		A55A5AA42A5B94F0003ED409 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AA32A5B94F0003ED409 /* FirebaseAnalyticsOnDeviceConversion */; };
+		A55A5AA62A5B94F0003ED409 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AA52A5B94F0003ED409 /* FirebaseAnalyticsSwift */; };
+		A55A5AA82A5B94F0003ED409 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AA72A5B94F0003ED409 /* FirebaseAuth */; };
+		A55A5AAA2A5B94F0003ED409 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AA92A5B94F0003ED409 /* FirebaseAuthCombine-Community */; };
+		A55A5AAC2A5B94F0003ED409 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AAB2A5B94F0003ED409 /* FirebaseDatabase */; };
+		A55A5AAE2A5B94F0003ED409 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AAD2A5B94F0003ED409 /* FirebaseDatabaseSwift */; };
+		A55A5AB02A5B94F0003ED409 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AAF2A5B94F0003ED409 /* FirebaseStorage */; };
+		A55A5AB22A5B94F0003ED409 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = A55A5AB12A5B94F0003ED409 /* FirebaseStorageCombine-Community */; };
+		A563CB182A59C8F900CCA2D1 /* LoginSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A563CB172A59C8F900CCA2D1 /* LoginSheetViewController.swift */; };
+		A563CB202A5AC83400CCA2D1 /* KakaoSDK in Frameworks */ = {isa = PBXBuildFile; productRef = A563CB1F2A5AC83400CCA2D1 /* KakaoSDK */; };
+		A563CB222A5AC83400CCA2D1 /* KakaoSDKAuth in Frameworks */ = {isa = PBXBuildFile; productRef = A563CB212A5AC83400CCA2D1 /* KakaoSDKAuth */; };
+		A563CB242A5AC83400CCA2D1 /* KakaoSDKCommon in Frameworks */ = {isa = PBXBuildFile; productRef = A563CB232A5AC83400CCA2D1 /* KakaoSDKCommon */; };
+		A563CB262A5AC83400CCA2D1 /* KakaoSDKUser in Frameworks */ = {isa = PBXBuildFile; productRef = A563CB252A5AC83400CCA2D1 /* KakaoSDKUser */; };
+		A5684EF52A739FFB0036E885 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5684EF42A739FFB0036E885 /* MapViewController.swift */; };
+		A58A16992A726104007132B1 /* AccountManagementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58A16982A726104007132B1 /* AccountManagementViewController.swift */; };
+		A58D1E3D2A57FABF0010AE6E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D1E3C2A57FABF0010AE6E /* AppDelegate.swift */; };
+		A58D1E3F2A57FABF0010AE6E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D1E3E2A57FABF0010AE6E /* SceneDelegate.swift */; };
+		A58D1E412A57FABF0010AE6E /* OnboardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D1E402A57FABF0010AE6E /* OnboardingViewController.swift */; };
+		A58D1E442A57FABF0010AE6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A58D1E422A57FABF0010AE6E /* Main.storyboard */; };
+		A58D1E472A57FABF0010AE6E /* donforgetMAP.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A58D1E452A57FABF0010AE6E /* donforgetMAP.xcdatamodeld */; };
+		A58D1E492A57FABF0010AE6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A58D1E482A57FABF0010AE6E /* Assets.xcassets */; };
+		A58D1E5B2A57FD670010AE6E /* NanumSquareR.otf in Resources */ = {isa = PBXBuildFile; fileRef = A58D1E5A2A57FD670010AE6E /* NanumSquareR.otf */; };
+		A58D1E5D2A57FD6F0010AE6E /* Kyobo Handwriting 2019.otf in Resources */ = {isa = PBXBuildFile; fileRef = A58D1E5C2A57FD6F0010AE6E /* Kyobo Handwriting 2019.otf */; };
+		A58D1E612A57FF2C0010AE6E /* Extension+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D1E602A57FF2C0010AE6E /* Extension+UIColor.swift */; };
+		A58D1E632A5809950010AE6E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A58D1E622A5809950010AE6E /* CalendarViewController.swift */; };
+		A58D1E662A5819070010AE6E /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = A58D1E652A5819070010AE6E /* FSCalendar */; };
+		A5BA00F12A753B7E00A7435A /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5BA00F02A753B7E00A7435A /* AlertViewController.swift */; };
+		A5BA00F32A753B8D00A7435A /* PopUp.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5BA00F22A753B8D00A7435A /* PopUp.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		48162DB29E9BDF656C801DE0 /* Pods-donforgetMAP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donforgetMAP.debug.xcconfig"; path = "Target Support Files/Pods-donforgetMAP/Pods-donforgetMAP.debug.xcconfig"; sourceTree = "<group>"; };
+		53A1F9077F5270D769C23B97 /* Pods_donforgetMAP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donforgetMAP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6021DF252A67FEBF004D78AD /* TodoManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoManager.swift; sourceTree = "<group>"; };
+		6021DF2B2A762CAC004D78AD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		60CE61422A77949600321C19 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A51C6A452A5D220C0078A1AD /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		A559C1A22A6BDF120006E133 /* ToDoListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListCell.swift; sourceTree = "<group>"; };
+		A563CB172A59C8F900CCA2D1 /* LoginSheetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginSheetViewController.swift; sourceTree = "<group>"; };
+		A563CB1D2A5AB7FC00CCA2D1 /* donforgetMAP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = donforgetMAP.entitlements; sourceTree = "<group>"; };
+		A5684EF42A739FFB0036E885 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A58A16982A726104007132B1 /* AccountManagementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManagementViewController.swift; sourceTree = "<group>"; };
+		A58D1E392A57FABF0010AE6E /* donforgetMAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = donforgetMAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A58D1E3C2A57FABF0010AE6E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A58D1E3E2A57FABF0010AE6E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A58D1E402A57FABF0010AE6E /* OnboardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewController.swift; sourceTree = "<group>"; };
+		A58D1E432A57FABF0010AE6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A58D1E462A57FABF0010AE6E /* donforgetMAP.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = donforgetMAP.xcdatamodel; sourceTree = "<group>"; };
+		A58D1E482A57FABF0010AE6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A58D1E4D2A57FABF0010AE6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A58D1E5A2A57FD670010AE6E /* NanumSquareR.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = NanumSquareR.otf; sourceTree = "<group>"; };
+		A58D1E5C2A57FD6F0010AE6E /* Kyobo Handwriting 2019.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Kyobo Handwriting 2019.otf"; sourceTree = "<group>"; };
+		A58D1E602A57FF2C0010AE6E /* Extension+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIColor.swift"; sourceTree = "<group>"; };
+		A58D1E622A5809950010AE6E /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		A5BA00F02A753B7E00A7435A /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		A5BA00F22A753B8D00A7435A /* PopUp.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = PopUp.storyboard; sourceTree = "<group>"; };
+		D4FC402631B6A16FA8E1EACB /* Pods-donforgetMAP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donforgetMAP.release.xcconfig"; path = "Target Support Files/Pods-donforgetMAP/Pods-donforgetMAP.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A58D1E362A57FABF0010AE6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55A5AAE2A5B94F0003ED409 /* FirebaseDatabaseSwift in Frameworks */,
+				A55A5AAC2A5B94F0003ED409 /* FirebaseDatabase in Frameworks */,
+				6021DF292A762B32004D78AD /* Moya in Frameworks */,
+				A563CB242A5AC83400CCA2D1 /* KakaoSDKCommon in Frameworks */,
+				A58D1E662A5819070010AE6E /* FSCalendar in Frameworks */,
+				A55A5AA22A5B94F0003ED409 /* FirebaseAnalytics in Frameworks */,
+				A55A5A9F2A5B80B5003ED409 /* GoogleSignInSwift in Frameworks */,
+				A55A5AA62A5B94F0003ED409 /* FirebaseAnalyticsSwift in Frameworks */,
+				A55A5AA42A5B94F0003ED409 /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				A55A5AB02A5B94F0003ED409 /* FirebaseStorage in Frameworks */,
+				A563CB202A5AC83400CCA2D1 /* KakaoSDK in Frameworks */,
+				A55A5AB22A5B94F0003ED409 /* FirebaseStorageCombine-Community in Frameworks */,
+				A55A5AAA2A5B94F0003ED409 /* FirebaseAuthCombine-Community in Frameworks */,
+				A55A5AA82A5B94F0003ED409 /* FirebaseAuth in Frameworks */,
+				A563CB262A5AC83400CCA2D1 /* KakaoSDKUser in Frameworks */,
+				A563CB222A5AC83400CCA2D1 /* KakaoSDKAuth in Frameworks */,
+				A55A5A9D2A5B80B5003ED409 /* GoogleSignIn in Frameworks */,
+				97720851FD16CBA4F32BF4C7 /* Pods_donforgetMAP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		096FCDB9958E73511EC91F1A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53A1F9077F5270D769C23B97 /* Pods_donforgetMAP.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CA0C946CE886DB3575EEC8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				48162DB29E9BDF656C801DE0 /* Pods-donforgetMAP.debug.xcconfig */,
+				D4FC402631B6A16FA8E1EACB /* Pods-donforgetMAP.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6021DF242A67FEB0004D78AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6021DF252A67FEBF004D78AD /* TodoManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6021DF2A2A762C94004D78AD /* Http */ = {
+			isa = PBXGroup;
+			children = (
+				6021DF2B2A762CAC004D78AD /* APIService.swift */,
+			);
+			path = Http;
+			sourceTree = "<group>";
+		};
+		A525CEF52A671792004CF5EC /* Todo */ = {
+			isa = PBXGroup;
+			children = (
+				A559C1A22A6BDF120006E133 /* ToDoListCell.swift */,
+			);
+			path = Todo;
+			sourceTree = "<group>";
+		};
+		A5835CDA2A864B6700FFD6F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A58D1E422A57FABF0010AE6E /* Main.storyboard */,
+				A5BA00F22A753B8D00A7435A /* PopUp.storyboard */,
+				A525CEF52A671792004CF5EC /* Todo */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		A58D1E302A57FABF0010AE6E = {
+			isa = PBXGroup;
+			children = (
+				A58D1E3B2A57FABF0010AE6E /* donforgetMAP */,
+				A58D1E3A2A57FABF0010AE6E /* Products */,
+				3CA0C946CE886DB3575EEC8E /* Pods */,
+				096FCDB9958E73511EC91F1A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A58D1E3A2A57FABF0010AE6E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A58D1E392A57FABF0010AE6E /* donforgetMAP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A58D1E3B2A57FABF0010AE6E /* donforgetMAP */ = {
+			isa = PBXGroup;
+			children = (
+				A58D1E3C2A57FABF0010AE6E /* AppDelegate.swift */,
+				A58D1E3E2A57FABF0010AE6E /* SceneDelegate.swift */,
+				6021DF242A67FEB0004D78AD /* Model */,
+				A5835CDA2A864B6700FFD6F2 /* Views */,
+				A5C309DC2A655D7E00D22926 /* Controller */,
+				6021DF2A2A762C94004D78AD /* Http */,
+				A563CB1D2A5AB7FC00CCA2D1 /* donforgetMAP.entitlements */,
+				A58D1E532A57FCB20010AE6E /* Utiles */,
+				A58D1E482A57FABF0010AE6E /* Assets.xcassets */,
+				A58D1E4D2A57FABF0010AE6E /* Info.plist */,
+				60CE61422A77949600321C19 /* GoogleService-Info.plist */,
+				A58D1E452A57FABF0010AE6E /* donforgetMAP.xcdatamodeld */,
+			);
+			path = donforgetMAP;
+			sourceTree = "<group>";
+		};
+		A58D1E532A57FCB20010AE6E /* Utiles */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA00EF2A753B6700A7435A /* Popup */,
+				A58D1E5F2A57FF0E0010AE6E /* Extension+color */,
+				A58D1E552A57FCC60010AE6E /* Font */,
+			);
+			path = Utiles;
+			sourceTree = "<group>";
+		};
+		A58D1E552A57FCC60010AE6E /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				A58D1E5A2A57FD670010AE6E /* NanumSquareR.otf */,
+				A58D1E5C2A57FD6F0010AE6E /* Kyobo Handwriting 2019.otf */,
+			);
+			name = Font;
+			path = "New Group/Font";
+			sourceTree = "<group>";
+		};
+		A58D1E5F2A57FF0E0010AE6E /* Extension+color */ = {
+			isa = PBXGroup;
+			children = (
+				A58D1E602A57FF2C0010AE6E /* Extension+UIColor.swift */,
+			);
+			path = "Extension+color";
+			sourceTree = "<group>";
+		};
+		A5BA00EF2A753B6700A7435A /* Popup */ = {
+			isa = PBXGroup;
+			children = (
+				A5BA00F02A753B7E00A7435A /* AlertViewController.swift */,
+			);
+			path = Popup;
+			sourceTree = "<group>";
+		};
+		A5C309DC2A655D7E00D22926 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A58D1E402A57FABF0010AE6E /* OnboardingViewController.swift */,
+				A58D1E622A5809950010AE6E /* CalendarViewController.swift */,
+				A563CB172A59C8F900CCA2D1 /* LoginSheetViewController.swift */,
+				A51C6A452A5D220C0078A1AD /* SettingViewController.swift */,
+				A58A16982A726104007132B1 /* AccountManagementViewController.swift */,
+				A5684EF42A739FFB0036E885 /* MapViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A58D1E382A57FABF0010AE6E /* donforgetMAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A58D1E502A57FABF0010AE6E /* Build configuration list for PBXNativeTarget "donforgetMAP" */;
+			buildPhases = (
+				17B5F0D3776C3D75EC464BF9 /* [CP] Check Pods Manifest.lock */,
+				A58D1E352A57FABF0010AE6E /* Sources */,
+				A58D1E362A57FABF0010AE6E /* Frameworks */,
+				A58D1E372A57FABF0010AE6E /* Resources */,
+				36D46D77AA7A0ACFB32B57CA /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = donforgetMAP;
+			packageProductDependencies = (
+				A58D1E652A5819070010AE6E /* FSCalendar */,
+				A563CB1F2A5AC83400CCA2D1 /* KakaoSDK */,
+				A563CB212A5AC83400CCA2D1 /* KakaoSDKAuth */,
+				A563CB232A5AC83400CCA2D1 /* KakaoSDKCommon */,
+				A563CB252A5AC83400CCA2D1 /* KakaoSDKUser */,
+				A55A5A9C2A5B80B5003ED409 /* GoogleSignIn */,
+				A55A5A9E2A5B80B5003ED409 /* GoogleSignInSwift */,
+				A55A5AA12A5B94F0003ED409 /* FirebaseAnalytics */,
+				A55A5AA32A5B94F0003ED409 /* FirebaseAnalyticsOnDeviceConversion */,
+				A55A5AA52A5B94F0003ED409 /* FirebaseAnalyticsSwift */,
+				A55A5AA72A5B94F0003ED409 /* FirebaseAuth */,
+				A55A5AA92A5B94F0003ED409 /* FirebaseAuthCombine-Community */,
+				A55A5AAB2A5B94F0003ED409 /* FirebaseDatabase */,
+				A55A5AAD2A5B94F0003ED409 /* FirebaseDatabaseSwift */,
+				A55A5AAF2A5B94F0003ED409 /* FirebaseStorage */,
+				A55A5AB12A5B94F0003ED409 /* FirebaseStorageCombine-Community */,
+				6021DF282A762B32004D78AD /* Moya */,
+			);
+			productName = donforgetMAP;
+			productReference = A58D1E392A57FABF0010AE6E /* donforgetMAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A58D1E312A57FABF0010AE6E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A58D1E382A57FABF0010AE6E = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = A58D1E342A57FABF0010AE6E /* Build configuration list for PBXProject "donforgetMAP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A58D1E302A57FABF0010AE6E;
+			packageReferences = (
+				A58D1E642A5819070010AE6E /* XCRemoteSwiftPackageReference "FSCalendar" */,
+				A563CB1E2A5AC83400CCA2D1 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */,
+				A55A5A9B2A5B80B5003ED409 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */,
+				A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6021DF272A762B32004D78AD /* XCRemoteSwiftPackageReference "Moya" */,
+			);
+			productRefGroup = A58D1E3A2A57FABF0010AE6E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A58D1E382A57FABF0010AE6E /* donforgetMAP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A58D1E372A57FABF0010AE6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58D1E5B2A57FD670010AE6E /* NanumSquareR.otf in Resources */,
+				A58D1E5D2A57FD6F0010AE6E /* Kyobo Handwriting 2019.otf in Resources */,
+				A58D1E492A57FABF0010AE6E /* Assets.xcassets in Resources */,
+				A58D1E442A57FABF0010AE6E /* Main.storyboard in Resources */,
+				A5BA00F32A753B8D00A7435A /* PopUp.storyboard in Resources */,
+				60CE61432A77949600321C19 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		17B5F0D3776C3D75EC464BF9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-donforgetMAP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36D46D77AA7A0ACFB32B57CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donforgetMAP/Pods-donforgetMAP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donforgetMAP/Pods-donforgetMAP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-donforgetMAP/Pods-donforgetMAP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A58D1E352A57FABF0010AE6E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A58D1E412A57FABF0010AE6E /* OnboardingViewController.swift in Sources */,
+				A563CB182A59C8F900CCA2D1 /* LoginSheetViewController.swift in Sources */,
+				A58D1E612A57FF2C0010AE6E /* Extension+UIColor.swift in Sources */,
+				A51C6A462A5D220C0078A1AD /* SettingViewController.swift in Sources */,
+				A58D1E3D2A57FABF0010AE6E /* AppDelegate.swift in Sources */,
+				6021DF262A67FEBF004D78AD /* TodoManager.swift in Sources */,
+				A559C1A32A6BDF120006E133 /* ToDoListCell.swift in Sources */,
+				A5684EF52A739FFB0036E885 /* MapViewController.swift in Sources */,
+				A58D1E632A5809950010AE6E /* CalendarViewController.swift in Sources */,
+				A58D1E3F2A57FABF0010AE6E /* SceneDelegate.swift in Sources */,
+				A58A16992A726104007132B1 /* AccountManagementViewController.swift in Sources */,
+				A5BA00F12A753B7E00A7435A /* AlertViewController.swift in Sources */,
+				A58D1E472A57FABF0010AE6E /* donforgetMAP.xcdatamodeld in Sources */,
+				6021DF2C2A762CAC004D78AD /* APIService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A58D1E422A57FABF0010AE6E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A58D1E432A57FABF0010AE6E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A58D1E4E2A57FABF0010AE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A58D1E4F2A57FABF0010AE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A58D1E512A57FABF0010AE6E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 48162DB29E9BDF656C801DE0 /* Pods-donforgetMAP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = donforgetMAP/donforgetMAP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMFQMV2467;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = donforgetMAP/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "까먹지Map의 원활한 사용을 위해 권한을 허락해주세요!";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "까먹지Map의 원활한 사용을 위해 권한을 허락해주세요!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WooBi.donforgetMAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A58D1E522A57FABF0010AE6E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D4FC402631B6A16FA8E1EACB /* Pods-donforgetMAP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = donforgetMAP/donforgetMAP.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = ZMFQMV2467;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = donforgetMAP/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "까먹지Map의 원활한 사용을 위해 권한을 허락해주세요!";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "위치 접근을 위해 권한이 필요합니다.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "까먹지Map의 원활한 사용을 위해 권한을 허락해주세요!";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.WooBi.donforgetMAP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A58D1E342A57FABF0010AE6E /* Build configuration list for PBXProject "donforgetMAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58D1E4E2A57FABF0010AE6E /* Debug */,
+				A58D1E4F2A57FABF0010AE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A58D1E502A57FABF0010AE6E /* Build configuration list for PBXNativeTarget "donforgetMAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A58D1E512A57FABF0010AE6E /* Debug */,
+				A58D1E522A57FABF0010AE6E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6021DF272A762B32004D78AD /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = exactVersion;
+				version = 15.0.3;
+			};
+		};
+		A55A5A9B2A5B80B5003ED409 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/GoogleSignIn-iOS";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+		A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+		A563CB1E2A5AC83400CCA2D1 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kakao/kakao-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		A58D1E642A5819070010AE6E /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6021DF282A762B32004D78AD /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6021DF272A762B32004D78AD /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		A55A5A9C2A5B80B5003ED409 /* GoogleSignIn */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5A9B2A5B80B5003ED409 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignIn;
+		};
+		A55A5A9E2A5B80B5003ED409 /* GoogleSignInSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5A9B2A5B80B5003ED409 /* XCRemoteSwiftPackageReference "GoogleSignIn-iOS" */;
+			productName = GoogleSignInSwift;
+		};
+		A55A5AA12A5B94F0003ED409 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		A55A5AA32A5B94F0003ED409 /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		A55A5AA52A5B94F0003ED409 /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		A55A5AA72A5B94F0003ED409 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		A55A5AA92A5B94F0003ED409 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		A55A5AAB2A5B94F0003ED409 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		A55A5AAD2A5B94F0003ED409 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		A55A5AAF2A5B94F0003ED409 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		A55A5AB12A5B94F0003ED409 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A55A5AA02A5B94F0003ED409 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		A563CB1F2A5AC83400CCA2D1 /* KakaoSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A563CB1E2A5AC83400CCA2D1 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDK;
+		};
+		A563CB212A5AC83400CCA2D1 /* KakaoSDKAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A563CB1E2A5AC83400CCA2D1 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKAuth;
+		};
+		A563CB232A5AC83400CCA2D1 /* KakaoSDKCommon */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A563CB1E2A5AC83400CCA2D1 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKCommon;
+		};
+		A563CB252A5AC83400CCA2D1 /* KakaoSDKUser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A563CB1E2A5AC83400CCA2D1 /* XCRemoteSwiftPackageReference "kakao-ios-sdk" */;
+			productName = KakaoSDKUser;
+		};
+		A58D1E652A5819070010AE6E /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A58D1E642A5819070010AE6E /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		A58D1E452A57FABF0010AE6E /* donforgetMAP.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A58D1E462A57FABF0010AE6E /* donforgetMAP.xcdatamodel */,
+			);
+			currentVersion = A58D1E462A57FABF0010AE6E /* donforgetMAP.xcdatamodel */;
+			path = donforgetMAP.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A58D1E312A57FABF0010AE6E /* Project object */;
+}
