@@ -12,6 +12,17 @@
 
 ‘아! 맞다, 0 0 샀어야 했는데..😯’ , ‘아! 맞다, 0 0 해오기로 했어야 했는데..😧’, ‘아! 맞다, 0 0 가지고 왔어야 했는데..🫨’ 등등 우린 너무 빠르게 💨 지나가는 하루 속에서 꼭 놓치는 일들이 있지는 않나요? 🤦🏻‍♂️ 이를 위해 **개발한 까먹지MAP, 당신의 일상 속 모든 거리에서 🚏 , 당신의 발걸음마다 👣, 놓치지 않게 도와드리겠습니다. 🧑🏻‍💻**
 
+<br/>
+
+### 앱스토어 바로가기 현재 version 1.0.0
+
+<a href="https://apps.apple.com/kr/app/%EA%B9%8C%EB%A8%B9%EC%A7%80map/id6456408065" target="_blank"><img src="https://user-images.githubusercontent.com/42762236/127537585-a07753d1-d0af-4cdc-8f53-24fbfae72be8.png" width="200px" /></a>
+
+### 구성
+    - iOS 개발자 1명, 서버개발자 1명, PM 및 디자이너 1명, 안드로이드 2명
+
+<br/>
+
 | Login 🚪 | Calendar_TodoList ✅ |
 | ------------ | ------------- |
 | ![Login](https://github.com/Woobios97/dontforgetMAP/assets/138302237/b41454f0-6a66-42cf-89ab-ed045c0a3a52) | ![Calendar_TodoList](https://github.com/Woobios97/dontforgetMAP/assets/138302237/4f0ed7fa-8e02-45d5-b164-92df01d8bb0f)  |
