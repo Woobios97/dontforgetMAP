@@ -1,5 +1,5 @@
 
-# 까먹지MAP 📌 🗺️ 📋 _ 단 하나뿐인 위치기반 투두 서비스
+# 까먹지MAP 📌 🗺️ 📋 _ 단 하나뿐인 위치기반 투두 서비스 [![swift](https://img.shields.io/badge/swift-5.0-orange)]() [![xcode](https://img.shields.io/badge/Xcode-14.2-blue)]() [![Moya](https://img.shields.io/badge/Moya-15.0.3-red)]() [![FSCalendar](https://img.shields.io/badge/FSCalendar-2.8.4-purple)]() [![NMapsMap](https://img.shields.io/badge/FSCalendar-3.1.7-green)]()   [![GoogleSignln](https://img.shields.io/badge/GoogleSignln-7.0.0-blue)]() [![KakaoOpenSDK](https://img.shields.io/badge/KakaoOpenSDK-2.0.0-yellow)]() [![UserDefaults](https://img.shields.io/badge/UserDefaults-blue)]()
 
 <img width="859" alt="스크린샷 2023-10-25 오후 7 47 17" src="https://github.com/Woobios97/dontforgetMAP/assets/138302237/389977aa-f798-4811-bef5-0a0964f881c3">
 
@@ -39,40 +39,6 @@
 ## 아키텍처 및 서비스플로우 🏗️
 
 ![Blank diagram (6) (1)](https://github.com/Woobios97/dontforgetMAP/assets/138302237/7fe4c5b0-b6e0-490e-a2c4-03bcccdc9a70)
-
-<br/>
-
-## Foldering 🗄️
-```bash
-─── DontforgetMAP
-│ ├── Appdelegate
-│ ├── SceneDelegate
-│ │ ├── Model
-│ │ │ ├── TodoManager
-│ │ ├── Views
-│ │ │ ├── Main.storyboard
-│ │ │ ├── Popup.storyboard
-│ │ │ ├── Todo
-│ │ │ │ │ ├── TodoListCell
-│ │ ├── Contollers
-│ │ │ ├── OnboardingViewController
-│ │ │ ├── CalendarViewController
-│ │ │ ├── LoginSheetController
-│ │ │ ├── SettingViewController
-│ │ │ ├── AccountManagerController
-│ │ │ ├── MapViewController
-│ │ ├── Http
-│ │ │ ├── APIService
-│ │ ├── Utiles
-│ │ │ ├── Popup
-│ │ │ │ │ ├── AlertViewController
-│ │ │ ├── Extension+color
-│ │ │ │ │ ├── Extension+UIColor
-│ │ │ ├── Font
-│ │ │ │ │ ├── NanumSquareR.otf
-│ │ │ │ │ ├──  Kyobo Handwriting 2019.otf
-└────── DontforgetMAP
-```
 
 <br/>
 
@@ -323,6 +289,40 @@
             - **`selectedTodoItems[indexPath.row].lat`** 와 **`selectedTodoItems[indexPath.row].lng`** 를 사용하여 해당 항목의 위치를 가져옵니다.
             - 해당 위치를 중심으로 반경 300.0의 지오펜싱 영역을 생성하고, 해당 영역에 진입하거나 퇴장할 때 알림을 받도록 설정합니다.
             - 이 지오펜싱 영역을 모니터링 시작합니다.
+
+<br/>
+
+## Foldering 🗄️
+```bash
+─── DontforgetMAP
+│ ├── Appdelegate
+│ ├── SceneDelegate
+│ │ ├── Model
+│ │ │ ├── TodoManager
+│ │ ├── Views
+│ │ │ ├── Main.storyboard
+│ │ │ ├── Popup.storyboard
+│ │ │ ├── Todo
+│ │ │ │ │ ├── TodoListCell
+│ │ ├── Contollers
+│ │ │ ├── OnboardingViewController
+│ │ │ ├── CalendarViewController
+│ │ │ ├── LoginSheetController
+│ │ │ ├── SettingViewController
+│ │ │ ├── AccountManagerController
+│ │ │ ├── MapViewController
+│ │ ├── Http
+│ │ │ ├── APIService
+│ │ ├── Utiles
+│ │ │ ├── Popup
+│ │ │ │ │ ├── AlertViewController
+│ │ │ ├── Extension+color
+│ │ │ │ │ ├── Extension+UIColor
+│ │ │ ├── Font
+│ │ │ │ │ ├── NanumSquareR.otf
+│ │ │ │ │ ├──  Kyobo Handwriting 2019.otf
+└────── DontforgetMAP
+```
 
 <br/>
 
